@@ -156,16 +156,6 @@ Additionally, for this milestone, you also have the chance to extend the project
 
 This final milestone will be a culmination of all the work done in the previous milestones. You have the opportunity to improve on your design based on feedback from your tutor. Marking of the design will be harsher for the final milestone as you have already had the opportunity to receive feedback.
 
-## Assessment
-
-You will be assessed on your ability to apply what you have learnt in this course as well as your ability to produce a significant piece of software.
-
-In cases where the client has not been explicit in their requirements, you will need to make your own design decisions with your partner. However, this does not mean you can ignore whatever requirements the client has given you. You may be asked to justify any assumptions you have made during marking.
-
-You are expected to use git appropriately by committing regularly with meaningful commit messages and using feature branches to manage significant changes. Similarly, you should use the task board to coordinate work with your partner. You will need to take the principles you learnt from COMP1531 and apply them here.
-
-While it is up to you how to divide the work between you and your partner, both of you are expected to contribute code. Just creating diagrams and documentation is not sufficient contribution. Both members of a pair *generally* receive the same mark, but if there is a significant imbalance in the amount of work done, the total mark may be scaled to match actual contribution.
-
 ## Hints
 
 * The first two milestones do not require a working UI. First determine how you are going to model a dungeon and its entities before considering the UI. A well designed back-end will require minimal change to connect to the UI.
@@ -173,94 +163,7 @@ While it is up to you how to divide the work between you and your partner, both 
 * The starter code uses the observer pattern to ensure the frontend and backend are in a consistent state and that they are not tightly coupled. It would be advisable to do the same for the changes you will make.
 * The majority of marks available (see below) are for having a well designed application that meets the requirements. Avoid adding extra complexity and extensions till you have something that meets the most basic requirements.
 
-## Submission
-
-### Milestone 1
-
-You should have all your user stories entered into the issue board on your GitLab repository. You may continue to use the board between the deadline and your tutor's assessment, but they will be looking at the dates issues were modified to make sure you did the work that was required of you prior to the deadline.
-
-### Milestone 2
-
-Submit the contents of your GitLab repository with the following command:
-
-```bash
-$ 2511 submit milestone2
-```
-
 Your UML class diagram should be a PDF file at the root of your repository named `design.pdf`.
-
-### Milestone 3
-
-Submit the contents of your GitLab repository with the following command:
-
-```bash
-$ 2511 submit milestone3
-```
-
-You will demonstrate your application to your tutor in Week 10. You may be asked to justify your design decisions and explain how you worked with your partner.
-
-## Marking criteria
-
-The marks are allocated as follows:
-
-* Milestone 1 (5 marks)
-* Milestone 2 (8 marks)
-* Final milestone (12 marks)
-
-Below is a *rough* guide on how you will be assessed for each milestone.
-
-### Milestone 1
-
-| Criteria | Mark  |                                                                                                  |
-|:-------- |:----- |:------------------------------------------------------------------------------------------------ |
-| Stories  | 0     | No user stories                                                                                  |
-|          | 1     | User and epic stories not in a valid format and/or vague or ambiguous                            |
-|          | 2     | User and epic stories in a valid format, but with unclear benefits, goals or acceptance criteria |
-|          | 3     | Unambiguous and clear user stories with concrete acceptance criteria                             |
-| Planning | 0     | No user stories have points or priorities                                                        |
-|          | 1     | Only some user stories have points or priorities                                                 |
-|          | 2     | User stories have appropriate story point values and priorities                                  |
-
-### Milestone 2
-
-| Criteria     | Mark |                                                                                                   |
-|:------------ |:---- |:------------------------------------------------------------------------------------------------- |
-| Completeness | 0    | No or largely incomplete backend                                                                  |
-|              | 1    | Backend implements some of the entities                                                           |
-|              | 2    | Backend implements most of the entities                                                           |
-|              | 3    | Backend implements all of the entities                                                            |
-| Testing      | 0    | No JUnit tests                                                                                    |
-|              | 1    | JUnit tests for behaviour of a few entities                                                       |
-|              | 2    | Rigorous JUnit tests for behaviour of all entities                                                |
-| Design       | 0    | No apparent consideration for design                                                              |
-|              | 1    | Messy design and diagrams and/or design inconsistent with code                                    |
-|              | 2    | Clear design and diagrams with partial adherence to design principles and patterns                |
-|              | 3    | Clear design and diagrams fully adhering to design principles and patterns and conforming to code |
-
-Marks will be deducted for poor git and GitLab usage. For example, meaningless commit messages, large commits, issue board out of date, etc.
-
-### Milestone 3
-
-| Criteria     | Mark |                                                                                                   |
-|:------------ |:---- |:------------------------------------------------------------------------------------------------- |
-| Completeness | 0    | No or largely incomplete project                                                                  |
-|              | 1    | Dungeons can be played with most of the entities                                                  |
-|              | 2    | Dungeons can be played with all of the entities                                                   |
-| Design       | 0    | No apparent consideration for design                                                              |
-|              | 1    | Messy design and diagrams and/or design inconsistent with code                                    |
-|              | 2    | Messy diagrams and/or poor application of design patterns                                         |
-|              | 3    | Clear design and diagrams with partial adherence to design principles and patterns                |
-|              | 4    | Clear design and diagrams fully adhering to design principles and conforming to code, and correct application of design patterns |
-| Interaction  | 0    | Very basic user interface                                                                         |
-|              | 1    | Interface that makes it possible to solve dungeons, but is slow, awkward, or buggy                |
-|              | 2    | An interface that is mostly usable but with little consideration for usability heuristics         |
-|              | 3    | Interface that is easy to use                                                                     |
-|              | 4    | A product that is engaging, intuitive and fun to use                                              |
-| Extensions   | 0    | No extensions or only very basic extensions                                                       |
-|              | 1    | One extension that represents some technical consideration                                        |
-|              | 2    | Multiple extensions that represent some technical as well as design and user interaction consideration |
-
-Marks will be deducted for poor git and GitLab usage. For example, meaningless commit messages, large commits, issue board out of date, etc.
 
 [player]:        images/human_new.png
 [wall]:          images/brick_brown_0.png
